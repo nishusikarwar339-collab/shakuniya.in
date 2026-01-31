@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-blue-400 to-cyan-400 animate-pulse;
+  }
+}
